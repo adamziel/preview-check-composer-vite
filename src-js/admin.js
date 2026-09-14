@@ -2,7 +2,7 @@
 const start = Date.now();
 function tick() {
     const el = document.getElementById('playground-demo-count');
-    if (el) el.textContent = String(Math.floor((Date.now() - start) / 1000)) + ' / Preview A';
+    if (el) el.textContent = String(Math.floor((Date.now() - start) / 1000)) + ' / Preview B';
     requestAnimationFrame(tick);
 }
 document.addEventListener('DOMContentLoaded', tick);
