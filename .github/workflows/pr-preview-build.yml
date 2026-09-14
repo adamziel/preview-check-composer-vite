@@ -6,7 +6,7 @@ on:
 
 jobs:
   build:
-    uses: WordPress/action-wp-playground-pr-preview/.github/workflows/preview-build.yml@v3
+    uses: adamziel/action-wp-playground-pr-preview/.github/workflows/preview-build.yml@464a136c9f979c084d7b4e1be3aa6b2b34929403
     with:
       artifacts: playground-demo-plugin=build/playground-demo-plugin.zip
       node-version: '20'
